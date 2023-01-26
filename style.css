@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+header{    
+    background-image:url('travelimage.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+ul{
+    float: right;
+    list-style: none;
+
+}
+ul li{ 
+    display: inline-block;
+    text-decoration: none;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(12, 11, 11);
+    padding:6px 20px ;
+    border: 1px solid ;
+    transition: 0.6 ease;
+}
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+.logo img{
+    float: left;
+    width: 300px;
+    height: auto;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: #fff;
+    font-size: 70px;
+    outline:5px black;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    
+}
+.button{
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+.btn{
+    border: 1px black solid;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}   
+
+ul.red{
+    float: left;
+    position: absolute;
+    top: 85%;
+    color: #000;
+    transition: 0.6s ease;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+li:hover{
+    background-color: #fff;
+    color: #000;
+}
